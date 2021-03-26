@@ -12,7 +12,7 @@ public class Controller {
 
     List<User> users = new ArrayList<>();
 
-    @GetMapping("/users")
+    @GetMapping("/allUsers")
     public List<User> getAllUsers(){
         return users;
     }
