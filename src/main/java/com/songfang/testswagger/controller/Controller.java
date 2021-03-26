@@ -14,8 +14,6 @@ public class Controller {
 
     @GetMapping("/users")
     public List<User> getAllUsers(){
-        User user = new User(3,"Peter",22);
-        users.add(user);
         return users;
     }
 
